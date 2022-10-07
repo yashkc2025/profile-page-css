@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins&display=swap');
 
+body {
+  background-color: BLACK;
+}
+
 .main {
   height: 100vh;
-  background-color: #181a1e;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,21 +49,39 @@
   color: #b66161;
 }
 
-.profile>div>button {
-  width: 15rem;
-  height: 2rem;
-  font-size: 110%;
+.btn1 {
+  width: 12rem;
+  height: 2.5rem;
   border-radius: 10px;
-  border-style: dotted dashed;
-  border-color: aqua;
-  background-color: white;
+  border-style:none;
+  background-color: #0077b5 ;
 }
 
+.btn2 {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border-style:none;
+  background-color: white ;
+}
+
+.btn1 > a{
+  text-decoration: none;
+  font-size: 150%;
+  font-style:'Poppins';
+  color:white;
+}
+
+.btn2 > a{
+  text-decoration: none;
+  font-size: 150%;
+  font-style:'Poppins';
+  color:#0077b5;
+}
 .social {
   margin: auto;
   bottom: 1rem;
   height: 3rem;
-  ;
   background-color: black;
   left: 50%;
   width: 85%;
@@ -78,7 +100,7 @@
 
 .hero {
   display: inline-block;
-  padding: 1rem 1.7rem 2rem 2rem;
+  padding: 1rem 1.7rem 1rem 2rem;
   line-height: 1.5rem;
   color: aliceblue;
   text-align: start;
