@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Poppins&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main {
+  height: 100vh;
+  background-color: #181a1e;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Abyssinica SIL';
 }
 
-.App-link {
-  color: #61dafb;
+.profile {
+  height: 39rem;
+  width: 20rem;
+  background-color: #25272a;
+  /* background-color: #1f2125; */
+  border-radius: 2rem;
+  text-align: center;
+  position: relative;
+  border-color: yellow;
+  border-style: double dotted;
+  border-inline-width: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile>img {
+  height: 12rem;
+  border-style: dotted;
+  border-color: hotpink;
+  border-width: 8px;
+  border-radius: 50%;
+  margin-top: 1.6rem;
+}
+
+.intro {
+  line-height: 10px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.intro>h2 {
+  color: rgb(239, 231, 231);
+}
+
+.intro>h4 {
+  color: #b66161;
+}
+
+.profile>div>button {
+  width: 15rem;
+  height: 2rem;
+  font-size: 110%;
+  border-radius: 10px;
+  border-style: dotted dashed;
+  border-color: aqua;
+  background-color: white;
+}
+
+.social {
+  margin: auto;
+  bottom: 1rem;
+  height: 3rem;
+  ;
+  background-color: black;
+  left: 50%;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2rem;
+}
+
+.social>a {
+  color: whitesmoke;
+  padding: 1rem;
+  font-size: 120%;
+  text-decoration: none;
+
+}
+
+.hero {
+  display: inline-block;
+  padding: 1rem 1.7rem 2rem 2rem;
+  line-height: 1.5rem;
+  color: aliceblue;
+  text-align: start;
 }
